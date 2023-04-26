@@ -11,7 +11,6 @@ while(i < 5):
     y = random.choice(list2)
 
     pyautogui.moveTo(x, y, duration = .2)
-else: 
-    i += 1
-
+    
+    #there, no more else function. now the script is lame and weak
     
